@@ -4,7 +4,7 @@ terraform {
   required_providers {
     vault = {
       source  = "hashicorp/vault"
-      version = "4.2.0"
+      version = "4.3.0"
     }
     local = {
       source  = "hashicorp/local"
@@ -12,11 +12,11 @@ terraform {
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
-      version = "2.30.0"
+      version = "2.31.0"
     }
     helm = {
       source  = "hashicorp/helm"
-      version = "2.13.1"
+      version = "2.14.0"
     }
     kubectl = {
       source  = "gavinbunney/kubectl"
